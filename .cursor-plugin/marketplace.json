@@ -12,7 +12,7 @@
     {
       "name": "marvyn",
       "source": "./plugins/marvyn",
-      "description": "Ask about your ads, search, analytics and store results from Cursor, with Marvyn's findings and recommendations."
+      "description": "Build and manage Meta, Google and Reddit ad campaigns from Cursor, and read your marketing results. You approve every change in Marvyn."
     }
   ]
 }

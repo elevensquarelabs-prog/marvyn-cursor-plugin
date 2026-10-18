@@ -2,7 +2,7 @@
   "name": "marvyn",
   "displayName": "Marvyn",
   "version": "1.0.0",
-  "description": "Read your marketing results from Cursor: ad campaigns and creatives, search visibility, conversion funnel, tracking health, alerts and Marvyn's recommendations.",
+  "description": "Run your ads from Cursor: build Meta, Google and Reddit campaigns, pause or resume ads, and read results across ads, search, analytics and store. Every change waits for your one-click approval in Marvyn.",
   "author": {
     "name": "Marvyn",
     "email": "dev@marvyn.io"
@@ -11,8 +11,25 @@
   "repository": "https://github.com/elevensquarelabs-prog/marvyn-cursor-plugin",
   "license": "MIT",
   "logo": "assets/logo.png",
-  "keywords": ["marvyn", "marketing", "ads", "meta-ads", "google-ads", "seo", "analytics", "mcp"],
+  "keywords": [
+    "marvyn",
+    "marketing",
+    "ads",
+    "meta-ads",
+    "google-ads",
+    "reddit-ads",
+    "campaigns",
+    "seo",
+    "analytics",
+    "mcp"
+  ],
   "category": "integrations",
-  "tags": ["marketing", "ads", "seo", "analytics", "mcp"],
+  "tags": [
+    "marketing",
+    "ads",
+    "seo",
+    "analytics",
+    "mcp"
+  ],
   "mcpServers": "./mcp.json"
 }

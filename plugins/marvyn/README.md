@@ -1,23 +1,25 @@
 # Marvyn for Cursor
 
-Ask about your marketing results without leaving Cursor. Marvyn connects to your ad accounts (Meta, Google, Reddit, X), Google Search Console, Google Analytics and your store, and this plugin lets Cursor's agent read them.
+Run your ads without leaving Cursor. Marvyn connects to your ad accounts (Meta, Google, Reddit, X), Google Search Console, Google Analytics and your store. This plugin lets Cursor's agent build campaigns, manage ads and read your results through Marvyn.
 
 ## What it can do
 
-- Campaign and creative performance across ad platforms
-- Search visibility and AI-answer visibility for your site
-- Conversion funnel and tracking health
-- Marvyn's alerts and recommendations
+- **Build campaigns** on Meta, Google and Reddit: objective, budget, audience, placements, creative and copy
+- **Manage ads**: propose pausing or resuming campaigns and ads, apply Marvyn's recommendations
+- **Read results**: campaign and creative performance, search and AI-answer visibility, conversion funnel, tracking health
+- **Watch**: Marvyn's alerts and what to fix next
 
-It cannot change, pause or publish anything, or spend money. Any change it prepares waits for your approval inside Marvyn.
+## You stay in control
+
+Nothing goes live, changes or spends money until you approve it. Each campaign or change the agent prepares appears as a card in Marvyn; one click there launches it.
 
 ## Setup
 
 1. Install the plugin from the Cursor Marketplace.
 2. When Cursor asks, sign in to Marvyn and click **Allow**.
-3. Ask: "How are my ads doing this week?"
+3. Try: "Launch a Meta campaign for our new product, $30 a day, US, women 25-45."
 
-You need a Marvyn account with at least one connected source. Disconnect any time in Marvyn under **Settings → Account → Connected AI assistants**.
+You need a Marvyn account with your ad accounts connected. Disconnect any time in Marvyn under **Settings → Account → Connected AI assistants**.
 
 ## Links
 
