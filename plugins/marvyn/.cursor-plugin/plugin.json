@@ -2,7 +2,7 @@
   "name": "marvyn",
   "displayName": "Marvyn",
   "version": "1.0.0",
-  "description": "Run your ads from Cursor: build Meta, Google and Reddit campaigns, pause or resume ads, and read results across ads, search, analytics and store. Every change waits for your one-click approval in Marvyn.",
+  "description": "Your AI marketing team in Cursor. Read and act on your ads, SEO, AI search visibility, store, analytics, social and site behaviour; build ad campaigns, draft SEO articles and fix tracking, with every change approved by you in Marvyn.",
   "author": {
     "name": "Marvyn",
     "email": "dev@marvyn.io"
@@ -15,11 +15,17 @@
     "marvyn",
     "marketing",
     "ads",
+    "seo",
+    "aeo",
+    "ai-visibility",
+    "shopify",
+    "ecommerce",
+    "google-analytics",
+    "search-console",
+    "social-media",
     "meta-ads",
     "google-ads",
     "reddit-ads",
-    "campaigns",
-    "seo",
     "analytics",
     "mcp"
   ],
@@ -28,6 +34,7 @@
     "marketing",
     "ads",
     "seo",
+    "ecommerce",
     "analytics",
     "mcp"
   ],
