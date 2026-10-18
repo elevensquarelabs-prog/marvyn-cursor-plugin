@@ -23,5 +23,6 @@ description: Use the Marvyn tools for anything about the user's own marketing - 
 
 1. Read first: `campaign_facts` / `google_campaign_facts` / `reddit_campaign_facts` for accounts, pages, pixels and audiences; `campaign_search` for interests, locations and languages. Never invent ids.
 2. Prepare the change with the matching tool: `campaign_draft`, `google_campaign_draft`, `reddit_campaign_draft`, `campaign_create_audience`, `propose_pause`, `propose_resume`, `propose_recommendations`, `prepare_conversion_sending`, `save_content_draft`.
-3. Only use budgets, locations and audiences the user actually gave; leave the rest for them to fill in.
-4. Each tool saves a card and returns its link. Tell the user it is ready to review and goes live when they approve it in Marvyn. Never say it is live.
+3. Only use budgets, locations, web addresses and launch intent the user actually gave, and put them on the draft with provenance "assumption"; never invent values.
+4. Each tool saves a card and returns its id and link. To approve in the chat: call `review_marvyn_change` with the card id, show the user EVERYTHING it returns (budget total, audience, every ad's text and links, whether it goes live, the values you filled in), and ask. Only after a clear yes, call `approve_marvyn_change` with the code. Otherwise give them the link to approve in Marvyn.
+5. Never approve on your own initiative, and never say a change is live before `approve_marvyn_change` succeeds. Switching a campaign back on is approved in Marvyn, not in chat.

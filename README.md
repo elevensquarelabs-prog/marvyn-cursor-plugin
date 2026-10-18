@@ -36,13 +36,16 @@ Your AI marketing team, inside Cursor. Marvyn connects your ad accounts, Google 
 
 ## You stay in control
 
-Nothing goes live, changes or spends money until you approve it. Every campaign, pause, audience, article or tracking change the agent prepares appears as a card in Marvyn; one click there applies it.
+Nothing goes live, changes or spends money until you approve it. Every campaign, pause, audience, article or tracking change the agent prepares becomes a card in Marvyn, and you approve it either way:
+
+- **In the chat:** the agent shows you exactly what will happen (daily budget, audience, every ad's text and links, and whether it goes live) and asks. Say yes and Marvyn makes the change, with the same checks as the Approve button.
+- **In Marvyn:** open the card and click Approve.
 
 ## Setup
 
 1. Install the plugin from the Cursor Marketplace.
 2. When Cursor asks, sign in to Marvyn and click **Allow**.
-3. Try: "Why did sales drop last week?", "Which search queries should we write about next?" or "Launch a Meta campaign for our new product, $30 a day, US."
+3. Try: "Why did sales drop last week?", "Which search queries should we write about next?" or "Launch a Meta campaign for our new product, $30 a day, US" (it shows you everything, then launches when you say yes).
 
 What the agent can read follows your Marvyn plan and the sources you connected. Disconnect any time in Marvyn under **Settings → Account → Connected AI assistants**.
 
