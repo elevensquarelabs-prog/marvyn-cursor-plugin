@@ -14,8 +14,8 @@ description: Use the Marvyn tools for anything about the user's own marketing - 
 
 ## Reading
 
-1. For a broad or "why" question, call `get_marvyn_context` first (dates, connected sources, readable subjects), then start with `analyse_marketing_data` or `get_intelligence_snapshot`. For a named area use the matching tool: `get_ads_intelligence`, `get_store_intelligence`, `get_seo_overview`, `get_seo_competitors`, `get_ai_visibility`, `get_gsc_index_coverage`, `get_gsc_sitemap_health`, `get_gsc_branded_split`, `get_ga4_property_context`, `landing_pages`, `tracking_status`.
-2. Use `query_marketing_data` for exact figures the summaries do not show (orders, products, queries, pages, social posts, Clarity, pixel). Call it once with no table to get the list of tables, then copy table ids and metric names exactly.
+1. For a broad or "why" question, call `get_marvyn_context` first (dates, connected sources, readable subjects), then start with `analyse_marketing_data` or `get_intelligence_snapshot` (`describe_marketing_metrics` explains a subject's metrics and splits). For a named area use the matching tool: `get_ads_intelligence`, `get_store_intelligence`, `get_seo_overview`, `get_seo_competitors`, `get_ai_visibility`, `get_gsc_index_coverage`, `get_gsc_sitemap_health`, `get_gsc_branded_split`, `get_ga4_property_context`, `landing_pages`, `tracking_status`.
+2. Use `query_marketing_data` for exact figures the summaries do not show (orders, products, queries, pages, social posts, Clarity, pixel). Call `list_marketing_tables` first, then copy table ids and metric names exactly from it.
 3. For a methodology question (audit, creative testing, CRO, attribution), find a playbook with `search_skills` and read it with `load_skill`.
 4. Quote numbers with their period and source exactly as returned. Do not estimate missing figures. If a source is not connected or not on the user's plan, say so in one sentence.
 
